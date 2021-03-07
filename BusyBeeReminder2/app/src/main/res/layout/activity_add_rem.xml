@@ -1,0 +1,177 @@
+<!-- Object 1 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_rem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C7DDE4"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/honeyIcon"
+        android:layout_width="64dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="336dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/honeyCombIcon"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/event_text"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="106dp"
+        android:elevation="8dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/eventAsk"
+        android:textAppearance="@style/to_do_list_" />
+
+    <View
+        android:id="@+id/to_do_list_"
+        android:layout_width="247dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="157dp"
+        android:background="@drawable/toDo"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="572dp"
+        android:background="@drawable/affBox"
+        android:elevation="4dp" />
+
+    <!-- The Busy Bee Logo -->
+    <View
+        android:id="@+id/bee_logo"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#E9BB00" />
+
+    <TextView
+        android:id="@+id/the_busy_be"
+        android:layout_width="270dp"
+        android:layout_height="74dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/the_busy_be"
+        android:textAppearance="@style/the_busy_be" />
+
+    <CheckBox
+        android:id="@+id/sunday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="186dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/sunday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/monday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="241dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/monday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/tuesday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="294dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/tuesday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/wednesday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="354dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/wednesday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/thursday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="406dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/thursday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/friday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="462dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/friday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/saturday"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="525dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/saturday"
+        android:textAppearance="@style/to_do_list_" />
+
+    <CheckBox
+        android:id="@+id/daily"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="584dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/daily"
+        android:textAppearance="@style/to_do_list_" />
+
+</RelativeLayout>

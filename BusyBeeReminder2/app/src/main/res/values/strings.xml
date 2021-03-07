@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Busy Bee Reminder</string>
+    <string name="to_do_list_">To Do List</string>
+    <string name="aff">I Have The Power To Create Change</string>
+    <string name="rem">Reminders</string>
+    <string name="the_busy_be">The Busy Bee</string>
+    <string name="eventAsk">Event Name: </string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="daily">Daily</string>
+</resources>
