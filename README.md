@@ -1,2 +1,2 @@
 # TamanoProjects
-outside projects
+Source code for all outside projects.
