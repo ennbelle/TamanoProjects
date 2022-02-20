@@ -1,0 +1,23 @@
+/* 
+    Created on : Feb 19, 2022, 11:57:41 AM
+    Author     : Annabelle Tamano
+    Purpose    : chemx stylesheet
+*/
+
+body {
+    background-color: #D4F2DA;
+    margin: auto;
+    text-align: center;
+}
+
+#topbar {
+    padding: 25px;
+}
+#container {
+    background-color: #7843e6;
+    color: #FFF;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
